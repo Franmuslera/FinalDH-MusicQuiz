@@ -1,0 +1,80 @@
+{
+  "project_info": {
+    "project_number": "889646763768",
+    "firebase_url": "https://musicquiz-72839.firebaseio.com",
+    "project_id": "musicquiz-72839",
+    "storage_bucket": "musicquiz-72839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889646763768:android:230ec3ed8ff6796e",
+        "android_client_info": {
+          "package_name": "com.ejercicios.fdegregorio.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889646763768-uneqq3m5jml2lks4ttmf5khtmqsv9o6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejercicios.fdegregorio.musicapp",
+            "certificate_hash": "65db6492c03ee30096a0b8ccb9b5cf66a7e6cce5"
+          }
+        },
+        {
+          "client_id": "889646763768-1372nj26age8vc92a7aio107gcogj97f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejercicios.fdegregorio.musicapp",
+            "certificate_hash": "522e00a23f272e8c5a70e7bde6a8260ef91931e6"
+          }
+        },
+        {
+          "client_id": "889646763768-8bu913568j77ae0jh5a3m3rus6fjnrg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejercicios.fdegregorio.musicapp",
+            "certificate_hash": "441cd27e52ae20292bd3ee3cfe9fba28ea249fd1"
+          }
+        },
+        {
+          "client_id": "889646763768-rjb7dtd1vusf3rlt9lkggeh9milteqcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejercicios.fdegregorio.musicapp",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "889646763768-2avvke20rqvkcnmln297hon1vnaj9jg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejercicios.fdegregorio.musicapp",
+            "certificate_hash": "b234cf68ff97129d9b68f6b53b683f94de059c34"
+          }
+        },
+        {
+          "client_id": "889646763768-so3n5h1gm6puvlhlrjlaet2163ialpkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWQhIpy84HrBS1OZHFCnKClerskV9Jq9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889646763768-so3n5h1gm6puvlhlrjlaet2163ialpkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

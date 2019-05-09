@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_gradient_background"
+    tools:context=".view.FragmentQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtPuntosEnJuego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMAS 10 PUNTOS"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/prgLoadingTrack"
+            android:layout_marginTop="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:indeterminateDrawable="@drawable/progress_bar"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/btnPlayTrack"
+            android:layout_marginTop="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_play_circle_filled_white_24dp"
+            />
+
+        <Button
+            android:id="@+id/btnEscucharMas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_primary_rounded"
+            android:text="Escuchar mas!"
+            android:textColor="@color/colorText"
+            android:padding="10dp"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btnOpcion1"
+            android:text="Opcion 1"
+            android:layout_margin="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFont"
+            android:background="@drawable/button_default_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOpcion2"
+            android:text="Opcion 2"
+            android:layout_margin="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFont"
+            android:background="@drawable/button_default_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOpcion3"
+            android:text="Opcion 3"
+            android:layout_margin="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFont"
+            android:background="@drawable/button_default_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOpcion4"
+            android:text="Opcion 4"
+            android:layout_margin="8dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFont"
+            android:background="@drawable/button_default_rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

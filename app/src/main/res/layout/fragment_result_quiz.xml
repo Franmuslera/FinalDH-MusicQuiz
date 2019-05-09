@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/app_gradient_background"
+    tools:context=".view.FragmentResultQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/viewACompartir">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgArtistaResultQuiz"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/music_placeholder"
+        android:scaleType="centerCrop"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorText"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/nombreResultadoQuizArtista"
+            android:textSize="25dp"
+            />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorText"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="100 pts"
+        android:id="@+id/puntajeFinal"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/btnCompartir"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="COMPARTIR"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/colorFont"
+        android:background="@drawable/button_default_rounded"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerRanking">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

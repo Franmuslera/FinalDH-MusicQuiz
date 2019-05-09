@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_gradient_background"
+    tools:context=".view.FragmentSearch">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_search_white_24dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:drawableTint="@color/colorFondoTop"
+        android:hint="Artistas, albumes y canciones"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/colorFondoTop"
+        android:textColor="@color/colorFondoTop"
+        android:background="@drawable/edit_rounded"
+        android:id="@+id/edtSearch"/>
+
+    <ProgressBar
+        android:id="@+id/prgSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="100dp"
+        android:visibility="invisible"
+        android:indeterminateDrawable="@drawable/progress_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/contArtistas">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artistas"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:id="@+id/recyclerSearchArtistas">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/contAlbums">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Albums"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:id="@+id/recyclerSearchAlbums">
+
+    </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/contCanciones">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canciones"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:id="@+id/recyclerSearchCanciones">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

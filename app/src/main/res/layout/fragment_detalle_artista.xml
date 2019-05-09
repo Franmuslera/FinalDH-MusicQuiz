@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.FragmentDetalleArtista">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="205dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imagenArtistaDetalle"
+           />
+
+        <TextView
+            android:id="@+id/nombreDetalleArtista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/txtViewFansArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+           />
+
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="JUGAR"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorFont"
+            android:background="@drawable/button_default_rounded"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canciones"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/recyclerCancionesDetalle"
+            >
+        </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Albums"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginHorizontal="10dp"
+
+            android:id="@+id/recyclerAlbumsDetalle"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
+    </ScrollView>

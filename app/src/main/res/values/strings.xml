@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MusicQuiz</string>
+    <string name="app_name">Music Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">361583424411771</string>
+    <string name="facebook_app_protocol_scheme">fb361583424411771</string>
 </resources>

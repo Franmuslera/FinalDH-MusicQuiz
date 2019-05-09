@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:layout_height="140dp"
+    android:background="#54a468">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imagenAlbum"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/music_placeholder"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NombreAlbum"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:textColor="#fff"
+            android:id="@+id/nombreAlbum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NombreArtista"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="#fff"
+            android:id="@+id/nombreArtista"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cant. Tracks"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textColor="#fff"
+            android:id="@+id/nroTracks"/>
+
+    </LinearLayout>
+
+</LinearLayout>
